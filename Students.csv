@@ -1,0 +1,4 @@
+StudentID,StudentName,Gender,BirthDate,City,State,EmailID,Qualification,Stream
+4561,"Jayesh Shimpi",Male,1997-11-07,Pune,Maharashtra,jshimpi0711@gmail.com,BE,ENTC
+6542,"Ram Rajan",Male,1654-02-07,Solpur,"Maharashtra ",rr@gmail.com,BE,ENTC
+4564,"Niraj Pande",Male,2000-07-08,Mumbai,Maharashtra,np@gmail.com,BTECH,Arch

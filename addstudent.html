@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Add student</title>
+</head>
+<body>
+  <form  action="addstudent.php" method="POST">
+    <label for="sid"><strong>Student ID</strong></label><br>
+    <input type="text" name="StudentID" id="StudentID" required><br><br>
+    <label for="sname"><strong>Student Name</strong></label><br>
+    <input type="text" name="StudentName" id="StudentName" required><br><br>
+    <label for="gender"><strong>Gender</strong></label><br>
+    <input type="radio" id="male" name="Gender" value="Male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="Gender" value="Female">
+    <label for="male">Female</label><br><br>
+    <label for="birthdate"> <strong>Date of Birth</strong> </label><br>
+    <input type="date" name="BirthDate" id="BirthDate"><br><br>
+    <label for="city"> <strong>City</strong> </label><br>
+    <input type="text" name="City" id="City"><br><br>
+    <label for="state"> <strong>State</strong> </label><br>
+    <input type="text" name="State" id="State"><br><br>
+    <label for="emailid"> <strong>Email ID</strong> </label><br>
+    <input type="email" name="EmailID"  id="EmailID" required><br><br>
+    <label for="qualification"> <strong>Qualification</strong> </label><br>
+    <input type="text" name="Qualification" id="Qualification"><br><br>
+    <label for="stream"> <strong>Stream</strong> </label><br>
+    <input type="text" name="Stream" id="Stream"><br><br>
+    <button type="submit" name="submit" value="Submit"> <strong>Submit</strong> </button>
+
+  </form>
+</body>
